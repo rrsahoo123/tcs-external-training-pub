@@ -1,1 +1,0 @@
-# tcs-external-training-pub
