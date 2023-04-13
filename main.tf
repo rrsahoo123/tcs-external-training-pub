@@ -1,17 +1,17 @@
 #setting-up provider
 terraform {
   backend "s3" {
-    bucket = "mmyada1"
+    bucket = "rati-tfstate"
     key    = "terraform-state-file/non-prod/terraform.tfstate"
     region = "ap-south-1"
-    dynamodb_table = "rati-tf-dy-db-locking"
+    dynamodb_table = "rati-tf-locking-mumbai"
   }
 }
 
 
-provider "aws" {
-    region = "us-east-1"  
 
+provider "aws" {
+    region = "ap-south-1"  
 }
 
 # write the ec2 instance config 
