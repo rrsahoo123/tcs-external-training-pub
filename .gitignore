@@ -81,3 +81,5 @@ Training
 Blog
 About
 terraform-advanced-tcs-all-code/.gitignore at main · rrsahoo123/terraform-advanced-tcs-all-code
+
+.terraform.lock.hcl
